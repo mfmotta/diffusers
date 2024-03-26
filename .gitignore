@@ -148,10 +148,14 @@ runs
 /data
 serialization_dir
 **/generated_images
+**/generated_images
 **/*mm
 
 #mfmotta specific
 *mm
+/examples/dreambooth/denoising.ipynb
+/examples/dreambooth/denoise.py
+/examples/dreambooth/notes.md
 
 # emacs
 *.*~

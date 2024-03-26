@@ -1,3 +1,30 @@
+
+# Using diffusion to recreate an old photo
+
+</br>
+
+We will use dreambooth to try to recreate and improve an old photo of mine --the one currently used in my GitHub profile.
+This is a photograph of myself in my old office, where I sit in front of a whiteboard with some math scribbles.
+
+1) I experiment with finetuning a pretrained diffuser model on some pictures of me considering different hyperparameters. See `train.sh` for some options.
+
+2) I experiment with different hyperparameters and prompts in for inference. See `inference.py`.
+
+3) I experiment with different seed images and pipeline inference parameters. See `inference_with_seed_image.ipynb`
+
+
+</br>
+
+</br>
+
+
+
+
+
+---
+
+## From here on is the original huggingface README:
+
 # DreamBooth training example
 
 [DreamBooth](https://arxiv.org/abs/2208.12242) is a method to personalize text2image models like stable diffusion given just a few(3~5) images of a subject.

@@ -134,6 +134,7 @@ tensorflow_code
 # Models
 proc_data
 
+
 # examples
 runs
 /runs_old
@@ -141,10 +142,16 @@ runs
 /examples/runs
 /examples/**/*.args
 /examples/rag/sweep
+**/saved_models
 
 # data
 /data
 serialization_dir
+**/generated_images
+**/*mm
+
+#mfmotta specific
+*mm
 
 # emacs
 *.*~
